@@ -1,3 +1,7 @@
 v.0.0.0 
 - Base
 - "Japan" Civilization 
+
+v.0.0.1
+- Updated "Japan" Civilization's values
+- removed the "mCivPower" value in Civilization struct

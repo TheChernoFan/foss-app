@@ -12,13 +12,15 @@
 struct Civilization 
 {
     std::string mCivName;
-    int mCivPower;
     std::string mCivAge; // Ancient, Classical, Medieval, etc.
 };
 
 int main() 
 {
     Civilization japan;
+    japan.mCivName = "Japan";
+    japan.mCivAge = "Ancient";
+
     std::cin.get();
     return 0;
 }
